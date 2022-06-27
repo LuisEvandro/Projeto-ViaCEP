@@ -20,22 +20,6 @@
 
 #### Para rodar o projeto
 
-Para iniciar a instalação do front-end após clonar o projeto entre na pasta `/frontend` do os seguintes comandos:
-
-> Comando para instalar as dependencias do frontend
->
-> ```
-> npm install
-> ```
->
-> Comando para iniciar o front-end.
->
-> ```
-> npm run dev
-> ```
->
-> Após execução do comando acima acesse: http://localhost:3000/
-
 Para iniciar a instalação do backend após clonar o projeto entre na pasta `/backend` do os seguintes comandos:
 
 > Comando para instalar as dependencias do backend
@@ -62,3 +46,21 @@ Para iniciar a instalação do backend após clonar o projeto entre na pasta `/b
 > ```
 >
 > Após execução do comando acima a api estara disponivel : http://localhost: " _A PORTA QUE COLOCAR NO ARQUIVO ENV_ "
+
+Para iniciar a instalação do front-end após clonar o projeto entre na pasta `/frontend` do os seguintes comandos:
+
+> Comando para instalar as dependencias do frontend
+>
+> ```
+> npm install
+> ```
+>
+> :warning: **_No arquivo `viacep.ts` (está na pasta /frontend/src/services) a variavel `baseUrlViacep` está preenchida com a URL da API do backend, requer ajuste caso a porta seja diferente da que está._**
+>
+> Comando para iniciar o front-end.
+>
+> ```
+> npm run dev
+> ```
+>
+> Após execução do comando acima acesse: http://localhost:3000/
