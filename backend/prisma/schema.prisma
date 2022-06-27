@@ -1,0 +1,27 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model CepCache {
+  cep         String   @id @unique @db.VarChar(8)
+  logradouro  String   @db.VarChar(200)
+  complemento String?  @db.VarChar(200)
+  bairro      String   @db.VarChar(200)
+  localidade  String   @db.VarChar(200)
+  uf          String   @db.VarChar(200)
+  ibge        String   @db.VarChar(200)
+  gia         String   @db.VarChar(200)
+  ddd         String   @db.VarChar(200)
+  siafi       String   @db.VarChar(200)
+  created_at  DateTime @default(now())
+
+  @@map("cep_cache")
+}

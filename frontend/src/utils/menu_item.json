@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Buscar CEP",
+    "category": "pages",
+    "icon_name": "search",
+    "to": "/"
+  }
+]
+  
