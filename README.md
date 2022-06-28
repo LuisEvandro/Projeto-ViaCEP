@@ -8,12 +8,12 @@
 
 ## 💻 Tecnologias usadas:
 
-> Para o back-end sera utilizado:
+> Para o back-end foi utilizado:
 >
 > - NodeJs (Express e Prisma)
 > - MySQL para o banco de dados
 
-> Para o front-end sera utilizado:
+> Para o front-end foi utilizado:
 >
 > - ReactJs
 > - Styled-Component e Material-UI
@@ -64,3 +64,22 @@ Para iniciar a instalação do front-end após clonar o projeto entre na pasta `
 > ```
 >
 > Após execução do comando acima acesse: http://localhost:3000/
+
+## 🚀 Prévia da aplicação funcionando:
+
+Essa prévia foi homologada totalmente local, backend e frontend se comunicando...
+
+**GIF com o fluxo:**
+
+> ![WEB APP](/github/images/gif_web_app.gif)
+
+**Printscreens:**
+
+- **APP:**
+
+  > ![WEB APP](/github/images/dark_1.png) > ![WEB APP](/github/images/dark_2.png) > ![WEB APP](/github/images/ligth_1.png) > ![WEB APP](/github/images/ligth_2.png)
+
+- **Banco de dados (MySQL):**
+  > ![WEB APP](/github/images/bd_1.png)
+
+#### **👨🏻‍💻 Desenvolvido 💙 [Luis Evandro](https://github.com/LuisEvandro)**
