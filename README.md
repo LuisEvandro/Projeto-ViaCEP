@@ -63,7 +63,7 @@ Para iniciar a instalação do front-end após clonar o projeto entre na pasta `
 > npm run dev
 > ```
 >
-> Após execução do comando acima acesse: http://localhost:3000/
+> Após execução do comando acima acesse: http://localhost:3000/ _(Caso essa porta 3000 estiver em uso, no console ira mostrar a porta que o projeto vai estar rodando.)_
 
 ## 🚀 Prévia da aplicação funcionando:
 
